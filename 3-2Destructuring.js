@@ -44,8 +44,9 @@ const student2 = {
     },
     hobbies : ["fishing","Gardening",'swimming', "climbing"],
 }
+const{hobbies}=student2
 const [first2,second,third,four]=hobbies;
 
-const{Name2 , address2:{city2}, hobbies:[myhooby]}=student2;
+const{Name2 , address2:{city2}, hobbies:[]}=student2;
 
-console.log(second);
+console.log(four);
